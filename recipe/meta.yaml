@@ -1,5 +1,5 @@
 {% set name = "ubergauss" %}
-{% set version = "0.0.43" %}
+{% set version = "0.0.141" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ubergauss-{{ version }}.tar.gz
-  sha256: 617701b2bc20f868596e38f9884522f18d34504c057aa0bb91b59702389f2551
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ubergauss-{{ version }}.tar.gz
+  sha256: 474022864617ca289b91626befbe91b1664cde1689852e43d265360f1619099e
 
 build:
   number: 0
